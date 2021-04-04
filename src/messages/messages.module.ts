@@ -3,6 +3,6 @@ import { MessagesService } from './messages.service';
 import { MessagesResolver } from './messages.resolver';
 
 @Module({
-  providers: [MessagesResolver, MessagesService]
+  providers: [MessagesResolver, MessagesService],
 })
 export class MessagesModule {}
